@@ -35,31 +35,31 @@ namespace CinemaBookingSystem
             buttonSeat3 = new Button();
             buttonSeat4 = new Button();
             buttonSeat5 = new Button();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
-            button13 = new Button();
-            button14 = new Button();
-            button15 = new Button();
-            button16 = new Button();
-            button17 = new Button();
-            button18 = new Button();
-            button19 = new Button();
-            button20 = new Button();
-            button21 = new Button();
-            button22 = new Button();
-            button23 = new Button();
-            button24 = new Button();
-            button25 = new Button();
+            buttonSeat6 = new Button();
+            buttonSeat7 = new Button();
+            buttonSeat8 = new Button();
+            buttonSeat9 = new Button();
+            buttonSeat10 = new Button();
+            buttonSeat16 = new Button();
+            buttonSeat27 = new Button();
+            buttonSeat18 = new Button();
+            buttonSeat24 = new Button();
+            buttonSeat30 = new Button();
+            buttonSeat11 = new Button();
+            buttonSeat22 = new Button();
+            buttonSeat13 = new Button();
+            buttonSeat29 = new Button();
+            buttonSeat15 = new Button();
+            buttonSeat21 = new Button();
+            buttonSeat17 = new Button();
+            buttonSeat23 = new Button();
+            buttonSeat19 = new Button();
+            buttonSeat25 = new Button();
+            buttonSeat26 = new Button();
+            buttonSeat12 = new Button();
+            buttonSeat28 = new Button();
+            buttonSeat14 = new Button();
+            buttonSeat20 = new Button();
             panelScreen = new Panel();
             label2 = new Label();
             label3 = new Label();
@@ -144,330 +144,330 @@ namespace CinemaBookingSystem
             buttonSeat5.UseVisualStyleBackColor = false;
             buttonSeat5.Click += buttonSeat1_Click;
             // 
-            // button1
+            // buttonSeat6
             // 
-            button1.BackColor = Color.Green;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(473, 202);
-            button1.Name = "button1";
-            button1.Size = new Size(60, 60);
-            button1.TabIndex = 7;
-            button1.Text = "1";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += buttonSeat1_Click;
+            buttonSeat6.BackColor = Color.Green;
+            buttonSeat6.FlatStyle = FlatStyle.Flat;
+            buttonSeat6.ForeColor = Color.White;
+            buttonSeat6.Location = new Point(473, 202);
+            buttonSeat6.Name = "buttonSeat6";
+            buttonSeat6.Size = new Size(60, 60);
+            buttonSeat6.TabIndex = 7;
+            buttonSeat6.Text = "6";
+            buttonSeat6.UseVisualStyleBackColor = false;
+            buttonSeat6.Click += buttonSeat1_Click;
             // 
-            // button2
+            // buttonSeat7
             // 
-            button2.BackColor = Color.Green;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.ForeColor = Color.White;
-            button2.Location = new Point(539, 202);
-            button2.Name = "button2";
-            button2.Size = new Size(60, 60);
-            button2.TabIndex = 8;
-            button2.Text = "2";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += buttonSeat1_Click;
+            buttonSeat7.BackColor = Color.Green;
+            buttonSeat7.FlatStyle = FlatStyle.Flat;
+            buttonSeat7.ForeColor = Color.White;
+            buttonSeat7.Location = new Point(539, 202);
+            buttonSeat7.Name = "buttonSeat7";
+            buttonSeat7.Size = new Size(60, 60);
+            buttonSeat7.TabIndex = 8;
+            buttonSeat7.Text = "7";
+            buttonSeat7.UseVisualStyleBackColor = false;
+            buttonSeat7.Click += buttonSeat1_Click;
             // 
-            // button3
+            // buttonSeat8
             // 
-            button3.BackColor = Color.Green;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.ForeColor = Color.White;
-            button3.Location = new Point(605, 202);
-            button3.Name = "button3";
-            button3.Size = new Size(60, 60);
-            button3.TabIndex = 9;
-            button3.Text = "3";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += buttonSeat1_Click;
+            buttonSeat8.BackColor = Color.Green;
+            buttonSeat8.FlatStyle = FlatStyle.Flat;
+            buttonSeat8.ForeColor = Color.White;
+            buttonSeat8.Location = new Point(605, 202);
+            buttonSeat8.Name = "buttonSeat8";
+            buttonSeat8.Size = new Size(60, 60);
+            buttonSeat8.TabIndex = 9;
+            buttonSeat8.Text = "8";
+            buttonSeat8.UseVisualStyleBackColor = false;
+            buttonSeat8.Click += buttonSeat1_Click;
             // 
-            // button4
+            // buttonSeat9
             // 
-            button4.BackColor = Color.Green;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.ForeColor = Color.White;
-            button4.Location = new Point(671, 202);
-            button4.Name = "button4";
-            button4.Size = new Size(60, 60);
-            button4.TabIndex = 10;
-            button4.Text = "4";
-            button4.UseVisualStyleBackColor = false;
-            button4.Click += buttonSeat1_Click;
+            buttonSeat9.BackColor = Color.Green;
+            buttonSeat9.FlatStyle = FlatStyle.Flat;
+            buttonSeat9.ForeColor = Color.White;
+            buttonSeat9.Location = new Point(671, 202);
+            buttonSeat9.Name = "buttonSeat9";
+            buttonSeat9.Size = new Size(60, 60);
+            buttonSeat9.TabIndex = 10;
+            buttonSeat9.Text = "9";
+            buttonSeat9.UseVisualStyleBackColor = false;
+            buttonSeat9.Click += buttonSeat1_Click;
             // 
-            // button5
+            // buttonSeat10
             // 
-            button5.BackColor = Color.Green;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.ForeColor = Color.White;
-            button5.Location = new Point(737, 202);
-            button5.Name = "button5";
-            button5.Size = new Size(60, 60);
-            button5.TabIndex = 11;
-            button5.Text = "5";
-            button5.UseVisualStyleBackColor = false;
-            button5.Click += buttonSeat1_Click;
+            buttonSeat10.BackColor = Color.Green;
+            buttonSeat10.FlatStyle = FlatStyle.Flat;
+            buttonSeat10.ForeColor = Color.White;
+            buttonSeat10.Location = new Point(737, 202);
+            buttonSeat10.Name = "buttonSeat10";
+            buttonSeat10.Size = new Size(60, 60);
+            buttonSeat10.TabIndex = 11;
+            buttonSeat10.Text = "10";
+            buttonSeat10.UseVisualStyleBackColor = false;
+            buttonSeat10.Click += buttonSeat1_Click;
             // 
-            // button6
+            // buttonSeat16
             // 
-            button6.BackColor = Color.Green;
-            button6.FlatStyle = FlatStyle.Flat;
-            button6.ForeColor = Color.White;
-            button6.Location = new Point(473, 334);
-            button6.Name = "button6";
-            button6.Size = new Size(60, 60);
-            button6.TabIndex = 12;
-            button6.Text = "1";
-            button6.UseVisualStyleBackColor = false;
-            button6.Click += buttonSeat1_Click;
+            buttonSeat16.BackColor = Color.Green;
+            buttonSeat16.FlatStyle = FlatStyle.Flat;
+            buttonSeat16.ForeColor = Color.White;
+            buttonSeat16.Location = new Point(473, 334);
+            buttonSeat16.Name = "buttonSeat16";
+            buttonSeat16.Size = new Size(60, 60);
+            buttonSeat16.TabIndex = 12;
+            buttonSeat16.Text = "16";
+            buttonSeat16.UseVisualStyleBackColor = false;
+            buttonSeat16.Click += buttonSeat1_Click;
             // 
-            // button7
+            // buttonSeat27
             // 
-            button7.BackColor = Color.Green;
-            button7.FlatStyle = FlatStyle.Flat;
-            button7.ForeColor = Color.White;
-            button7.Location = new Point(539, 466);
-            button7.Name = "button7";
-            button7.Size = new Size(60, 60);
-            button7.TabIndex = 13;
-            button7.Text = "2";
-            button7.UseVisualStyleBackColor = false;
-            button7.Click += buttonSeat1_Click;
+            buttonSeat27.BackColor = Color.Green;
+            buttonSeat27.FlatStyle = FlatStyle.Flat;
+            buttonSeat27.ForeColor = Color.White;
+            buttonSeat27.Location = new Point(539, 466);
+            buttonSeat27.Name = "buttonSeat27";
+            buttonSeat27.Size = new Size(60, 60);
+            buttonSeat27.TabIndex = 13;
+            buttonSeat27.Text = "27";
+            buttonSeat27.UseVisualStyleBackColor = false;
+            buttonSeat27.Click += buttonSeat1_Click;
             // 
-            // button8
+            // buttonSeat18
             // 
-            button8.BackColor = Color.Green;
-            button8.FlatStyle = FlatStyle.Flat;
-            button8.ForeColor = Color.White;
-            button8.Location = new Point(605, 334);
-            button8.Name = "button8";
-            button8.Size = new Size(60, 60);
-            button8.TabIndex = 14;
-            button8.Text = "3";
-            button8.UseVisualStyleBackColor = false;
-            button8.Click += buttonSeat1_Click;
+            buttonSeat18.BackColor = Color.Green;
+            buttonSeat18.FlatStyle = FlatStyle.Flat;
+            buttonSeat18.ForeColor = Color.White;
+            buttonSeat18.Location = new Point(605, 334);
+            buttonSeat18.Name = "buttonSeat18";
+            buttonSeat18.Size = new Size(60, 60);
+            buttonSeat18.TabIndex = 14;
+            buttonSeat18.Text = "18";
+            buttonSeat18.UseVisualStyleBackColor = false;
+            buttonSeat18.Click += buttonSeat1_Click;
             // 
-            // button9
+            // buttonSeat24
             // 
-            button9.BackColor = Color.Green;
-            button9.FlatStyle = FlatStyle.Flat;
-            button9.ForeColor = Color.White;
-            button9.Location = new Point(671, 400);
-            button9.Name = "button9";
-            button9.Size = new Size(60, 60);
-            button9.TabIndex = 15;
-            button9.Text = "4";
-            button9.UseVisualStyleBackColor = false;
-            button9.Click += buttonSeat1_Click;
+            buttonSeat24.BackColor = Color.Green;
+            buttonSeat24.FlatStyle = FlatStyle.Flat;
+            buttonSeat24.ForeColor = Color.White;
+            buttonSeat24.Location = new Point(671, 400);
+            buttonSeat24.Name = "buttonSeat24";
+            buttonSeat24.Size = new Size(60, 60);
+            buttonSeat24.TabIndex = 15;
+            buttonSeat24.Text = "24";
+            buttonSeat24.UseVisualStyleBackColor = false;
+            buttonSeat24.Click += buttonSeat1_Click;
             // 
-            // button10
+            // buttonSeat30
             // 
-            button10.BackColor = Color.Green;
-            button10.FlatStyle = FlatStyle.Flat;
-            button10.ForeColor = Color.White;
-            button10.Location = new Point(737, 466);
-            button10.Name = "button10";
-            button10.Size = new Size(60, 60);
-            button10.TabIndex = 16;
-            button10.Text = "5";
-            button10.UseVisualStyleBackColor = false;
-            button10.Click += buttonSeat1_Click;
+            buttonSeat30.BackColor = Color.Green;
+            buttonSeat30.FlatStyle = FlatStyle.Flat;
+            buttonSeat30.ForeColor = Color.White;
+            buttonSeat30.Location = new Point(737, 466);
+            buttonSeat30.Name = "buttonSeat30";
+            buttonSeat30.Size = new Size(60, 60);
+            buttonSeat30.TabIndex = 16;
+            buttonSeat30.Text = "30";
+            buttonSeat30.UseVisualStyleBackColor = false;
+            buttonSeat30.Click += buttonSeat1_Click;
             // 
-            // button11
+            // buttonSeat11
             // 
-            button11.BackColor = Color.Green;
-            button11.FlatStyle = FlatStyle.Flat;
-            button11.ForeColor = Color.White;
-            button11.Location = new Point(473, 268);
-            button11.Name = "button11";
-            button11.Size = new Size(60, 60);
-            button11.TabIndex = 17;
-            button11.Text = "1";
-            button11.UseVisualStyleBackColor = false;
-            button11.Click += buttonSeat1_Click;
+            buttonSeat11.BackColor = Color.Green;
+            buttonSeat11.FlatStyle = FlatStyle.Flat;
+            buttonSeat11.ForeColor = Color.White;
+            buttonSeat11.Location = new Point(473, 268);
+            buttonSeat11.Name = "buttonSeat11";
+            buttonSeat11.Size = new Size(60, 60);
+            buttonSeat11.TabIndex = 17;
+            buttonSeat11.Text = "11";
+            buttonSeat11.UseVisualStyleBackColor = false;
+            buttonSeat11.Click += buttonSeat1_Click;
             // 
-            // button12
+            // buttonSeat22
             // 
-            button12.BackColor = Color.Green;
-            button12.FlatStyle = FlatStyle.Flat;
-            button12.ForeColor = Color.White;
-            button12.Location = new Point(539, 400);
-            button12.Name = "button12";
-            button12.Size = new Size(60, 60);
-            button12.TabIndex = 18;
-            button12.Text = "2";
-            button12.UseVisualStyleBackColor = false;
-            button12.Click += buttonSeat1_Click;
+            buttonSeat22.BackColor = Color.Green;
+            buttonSeat22.FlatStyle = FlatStyle.Flat;
+            buttonSeat22.ForeColor = Color.White;
+            buttonSeat22.Location = new Point(539, 400);
+            buttonSeat22.Name = "buttonSeat22";
+            buttonSeat22.Size = new Size(60, 60);
+            buttonSeat22.TabIndex = 18;
+            buttonSeat22.Text = "22";
+            buttonSeat22.UseVisualStyleBackColor = false;
+            buttonSeat22.Click += buttonSeat1_Click;
             // 
-            // button13
+            // buttonSeat13
             // 
-            button13.BackColor = Color.Green;
-            button13.FlatStyle = FlatStyle.Flat;
-            button13.ForeColor = Color.White;
-            button13.Location = new Point(605, 268);
-            button13.Name = "button13";
-            button13.Size = new Size(60, 60);
-            button13.TabIndex = 19;
-            button13.Text = "3";
-            button13.UseVisualStyleBackColor = false;
-            button13.Click += buttonSeat1_Click;
+            buttonSeat13.BackColor = Color.Green;
+            buttonSeat13.FlatStyle = FlatStyle.Flat;
+            buttonSeat13.ForeColor = Color.White;
+            buttonSeat13.Location = new Point(605, 268);
+            buttonSeat13.Name = "buttonSeat13";
+            buttonSeat13.Size = new Size(60, 60);
+            buttonSeat13.TabIndex = 19;
+            buttonSeat13.Text = "13";
+            buttonSeat13.UseVisualStyleBackColor = false;
+            buttonSeat13.Click += buttonSeat1_Click;
             // 
-            // button14
+            // buttonSeat29
             // 
-            button14.BackColor = Color.Green;
-            button14.FlatStyle = FlatStyle.Flat;
-            button14.ForeColor = Color.White;
-            button14.Location = new Point(671, 466);
-            button14.Name = "button14";
-            button14.Size = new Size(60, 60);
-            button14.TabIndex = 20;
-            button14.Text = "4";
-            button14.UseVisualStyleBackColor = false;
-            button14.Click += buttonSeat1_Click;
+            buttonSeat29.BackColor = Color.Green;
+            buttonSeat29.FlatStyle = FlatStyle.Flat;
+            buttonSeat29.ForeColor = Color.White;
+            buttonSeat29.Location = new Point(671, 466);
+            buttonSeat29.Name = "buttonSeat29";
+            buttonSeat29.Size = new Size(60, 60);
+            buttonSeat29.TabIndex = 20;
+            buttonSeat29.Text = "29";
+            buttonSeat29.UseVisualStyleBackColor = false;
+            buttonSeat29.Click += buttonSeat1_Click;
             // 
-            // button15
+            // buttonSeat15
             // 
-            button15.BackColor = Color.Green;
-            button15.FlatStyle = FlatStyle.Flat;
-            button15.ForeColor = Color.White;
-            button15.Location = new Point(737, 268);
-            button15.Name = "button15";
-            button15.Size = new Size(60, 60);
-            button15.TabIndex = 21;
-            button15.Text = "5";
-            button15.UseVisualStyleBackColor = false;
-            button15.Click += buttonSeat1_Click;
+            buttonSeat15.BackColor = Color.Green;
+            buttonSeat15.FlatStyle = FlatStyle.Flat;
+            buttonSeat15.ForeColor = Color.White;
+            buttonSeat15.Location = new Point(737, 268);
+            buttonSeat15.Name = "buttonSeat15";
+            buttonSeat15.Size = new Size(60, 60);
+            buttonSeat15.TabIndex = 21;
+            buttonSeat15.Text = "15";
+            buttonSeat15.UseVisualStyleBackColor = false;
+            buttonSeat15.Click += buttonSeat1_Click;
             // 
-            // button16
+            // buttonSeat21
             // 
-            button16.BackColor = Color.Green;
-            button16.FlatStyle = FlatStyle.Flat;
-            button16.ForeColor = Color.White;
-            button16.Location = new Point(473, 400);
-            button16.Name = "button16";
-            button16.Size = new Size(60, 60);
-            button16.TabIndex = 22;
-            button16.Text = "1";
-            button16.UseVisualStyleBackColor = false;
-            button16.Click += buttonSeat1_Click;
+            buttonSeat21.BackColor = Color.Green;
+            buttonSeat21.FlatStyle = FlatStyle.Flat;
+            buttonSeat21.ForeColor = Color.White;
+            buttonSeat21.Location = new Point(473, 400);
+            buttonSeat21.Name = "buttonSeat21";
+            buttonSeat21.Size = new Size(60, 60);
+            buttonSeat21.TabIndex = 22;
+            buttonSeat21.Text = "21";
+            buttonSeat21.UseVisualStyleBackColor = false;
+            buttonSeat21.Click += buttonSeat1_Click;
             // 
-            // button17
+            // buttonSeat17
             // 
-            button17.BackColor = Color.Green;
-            button17.FlatStyle = FlatStyle.Flat;
-            button17.ForeColor = Color.White;
-            button17.Location = new Point(539, 334);
-            button17.Name = "button17";
-            button17.Size = new Size(60, 60);
-            button17.TabIndex = 23;
-            button17.Text = "2";
-            button17.UseVisualStyleBackColor = false;
-            button17.Click += buttonSeat1_Click;
+            buttonSeat17.BackColor = Color.Green;
+            buttonSeat17.FlatStyle = FlatStyle.Flat;
+            buttonSeat17.ForeColor = Color.White;
+            buttonSeat17.Location = new Point(539, 334);
+            buttonSeat17.Name = "buttonSeat17";
+            buttonSeat17.Size = new Size(60, 60);
+            buttonSeat17.TabIndex = 23;
+            buttonSeat17.Text = "17";
+            buttonSeat17.UseVisualStyleBackColor = false;
+            buttonSeat17.Click += buttonSeat1_Click;
             // 
-            // button18
+            // buttonSeat23
             // 
-            button18.BackColor = Color.Green;
-            button18.FlatStyle = FlatStyle.Flat;
-            button18.ForeColor = Color.White;
-            button18.Location = new Point(605, 400);
-            button18.Name = "button18";
-            button18.Size = new Size(60, 60);
-            button18.TabIndex = 24;
-            button18.Text = "3";
-            button18.UseVisualStyleBackColor = false;
-            button18.Click += buttonSeat1_Click;
+            buttonSeat23.BackColor = Color.Green;
+            buttonSeat23.FlatStyle = FlatStyle.Flat;
+            buttonSeat23.ForeColor = Color.White;
+            buttonSeat23.Location = new Point(605, 400);
+            buttonSeat23.Name = "buttonSeat23";
+            buttonSeat23.Size = new Size(60, 60);
+            buttonSeat23.TabIndex = 24;
+            buttonSeat23.Text = "23";
+            buttonSeat23.UseVisualStyleBackColor = false;
+            buttonSeat23.Click += buttonSeat1_Click;
             // 
-            // button19
+            // buttonSeat19
             // 
-            button19.BackColor = Color.Green;
-            button19.FlatStyle = FlatStyle.Flat;
-            button19.ForeColor = Color.White;
-            button19.Location = new Point(671, 334);
-            button19.Name = "button19";
-            button19.Size = new Size(60, 60);
-            button19.TabIndex = 25;
-            button19.Text = "4";
-            button19.UseVisualStyleBackColor = false;
-            button19.Click += buttonSeat1_Click;
+            buttonSeat19.BackColor = Color.Green;
+            buttonSeat19.FlatStyle = FlatStyle.Flat;
+            buttonSeat19.ForeColor = Color.White;
+            buttonSeat19.Location = new Point(671, 334);
+            buttonSeat19.Name = "buttonSeat19";
+            buttonSeat19.Size = new Size(60, 60);
+            buttonSeat19.TabIndex = 25;
+            buttonSeat19.Text = "19";
+            buttonSeat19.UseVisualStyleBackColor = false;
+            buttonSeat19.Click += buttonSeat1_Click;
             // 
-            // button20
+            // buttonSeat25
             // 
-            button20.BackColor = Color.Green;
-            button20.FlatStyle = FlatStyle.Flat;
-            button20.ForeColor = Color.White;
-            button20.Location = new Point(737, 400);
-            button20.Name = "button20";
-            button20.Size = new Size(60, 60);
-            button20.TabIndex = 26;
-            button20.Text = "5";
-            button20.UseVisualStyleBackColor = false;
-            button20.Click += buttonSeat1_Click;
+            buttonSeat25.BackColor = Color.Green;
+            buttonSeat25.FlatStyle = FlatStyle.Flat;
+            buttonSeat25.ForeColor = Color.White;
+            buttonSeat25.Location = new Point(737, 400);
+            buttonSeat25.Name = "buttonSeat25";
+            buttonSeat25.Size = new Size(60, 60);
+            buttonSeat25.TabIndex = 26;
+            buttonSeat25.Text = "25";
+            buttonSeat25.UseVisualStyleBackColor = false;
+            buttonSeat25.Click += buttonSeat1_Click;
             // 
-            // button21
+            // buttonSeat26
             // 
-            button21.BackColor = Color.Green;
-            button21.FlatStyle = FlatStyle.Flat;
-            button21.ForeColor = Color.White;
-            button21.Location = new Point(473, 466);
-            button21.Name = "button21";
-            button21.Size = new Size(60, 60);
-            button21.TabIndex = 27;
-            button21.Text = "1";
-            button21.UseVisualStyleBackColor = false;
-            button21.Click += buttonSeat1_Click;
+            buttonSeat26.BackColor = Color.Green;
+            buttonSeat26.FlatStyle = FlatStyle.Flat;
+            buttonSeat26.ForeColor = Color.White;
+            buttonSeat26.Location = new Point(473, 466);
+            buttonSeat26.Name = "buttonSeat26";
+            buttonSeat26.Size = new Size(60, 60);
+            buttonSeat26.TabIndex = 27;
+            buttonSeat26.Text = "26";
+            buttonSeat26.UseVisualStyleBackColor = false;
+            buttonSeat26.Click += buttonSeat1_Click;
             // 
-            // button22
+            // buttonSeat12
             // 
-            button22.BackColor = Color.Green;
-            button22.FlatStyle = FlatStyle.Flat;
-            button22.ForeColor = Color.White;
-            button22.Location = new Point(539, 268);
-            button22.Name = "button22";
-            button22.Size = new Size(60, 60);
-            button22.TabIndex = 28;
-            button22.Text = "2";
-            button22.UseVisualStyleBackColor = false;
-            button22.Click += buttonSeat1_Click;
+            buttonSeat12.BackColor = Color.Green;
+            buttonSeat12.FlatStyle = FlatStyle.Flat;
+            buttonSeat12.ForeColor = Color.White;
+            buttonSeat12.Location = new Point(539, 268);
+            buttonSeat12.Name = "buttonSeat12";
+            buttonSeat12.Size = new Size(60, 60);
+            buttonSeat12.TabIndex = 28;
+            buttonSeat12.Text = "12";
+            buttonSeat12.UseVisualStyleBackColor = false;
+            buttonSeat12.Click += buttonSeat1_Click;
             // 
-            // button23
+            // buttonSeat28
             // 
-            button23.BackColor = Color.Green;
-            button23.FlatStyle = FlatStyle.Flat;
-            button23.ForeColor = Color.White;
-            button23.Location = new Point(605, 466);
-            button23.Name = "button23";
-            button23.Size = new Size(60, 60);
-            button23.TabIndex = 29;
-            button23.Text = "3";
-            button23.UseVisualStyleBackColor = false;
-            button23.Click += buttonSeat1_Click;
+            buttonSeat28.BackColor = Color.Green;
+            buttonSeat28.FlatStyle = FlatStyle.Flat;
+            buttonSeat28.ForeColor = Color.White;
+            buttonSeat28.Location = new Point(605, 466);
+            buttonSeat28.Name = "buttonSeat28";
+            buttonSeat28.Size = new Size(60, 60);
+            buttonSeat28.TabIndex = 29;
+            buttonSeat28.Text = "28";
+            buttonSeat28.UseVisualStyleBackColor = false;
+            buttonSeat28.Click += buttonSeat1_Click;
             // 
-            // button24
+            // buttonSeat14
             // 
-            button24.BackColor = Color.Green;
-            button24.FlatStyle = FlatStyle.Flat;
-            button24.ForeColor = Color.White;
-            button24.Location = new Point(671, 268);
-            button24.Name = "button24";
-            button24.Size = new Size(60, 60);
-            button24.TabIndex = 30;
-            button24.Text = "4";
-            button24.UseVisualStyleBackColor = false;
-            button24.Click += buttonSeat1_Click;
+            buttonSeat14.BackColor = Color.Green;
+            buttonSeat14.FlatStyle = FlatStyle.Flat;
+            buttonSeat14.ForeColor = Color.White;
+            buttonSeat14.Location = new Point(671, 268);
+            buttonSeat14.Name = "buttonSeat14";
+            buttonSeat14.Size = new Size(60, 60);
+            buttonSeat14.TabIndex = 30;
+            buttonSeat14.Text = "14";
+            buttonSeat14.UseVisualStyleBackColor = false;
+            buttonSeat14.Click += buttonSeat1_Click;
             // 
-            // button25
+            // buttonSeat20
             // 
-            button25.BackColor = Color.Green;
-            button25.FlatStyle = FlatStyle.Flat;
-            button25.ForeColor = Color.White;
-            button25.Location = new Point(737, 334);
-            button25.Name = "button25";
-            button25.Size = new Size(60, 60);
-            button25.TabIndex = 31;
-            button25.Text = "5";
-            button25.UseVisualStyleBackColor = false;
-            button25.Click += buttonSeat1_Click;
+            buttonSeat20.BackColor = Color.Green;
+            buttonSeat20.FlatStyle = FlatStyle.Flat;
+            buttonSeat20.ForeColor = Color.White;
+            buttonSeat20.Location = new Point(737, 334);
+            buttonSeat20.Name = "buttonSeat20";
+            buttonSeat20.Size = new Size(60, 60);
+            buttonSeat20.TabIndex = 31;
+            buttonSeat20.Text = "20";
+            buttonSeat20.UseVisualStyleBackColor = false;
+            buttonSeat20.Click += buttonSeat1_Click;
             // 
             // panelScreen
             // 
@@ -539,31 +539,31 @@ namespace CinemaBookingSystem
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(panelScreen);
-            Controls.Add(button21);
-            Controls.Add(button22);
-            Controls.Add(button23);
-            Controls.Add(button24);
-            Controls.Add(button25);
-            Controls.Add(button16);
-            Controls.Add(button17);
-            Controls.Add(button18);
-            Controls.Add(button19);
-            Controls.Add(button20);
-            Controls.Add(button11);
-            Controls.Add(button12);
-            Controls.Add(button13);
-            Controls.Add(button14);
-            Controls.Add(button15);
-            Controls.Add(button6);
-            Controls.Add(button7);
-            Controls.Add(button8);
-            Controls.Add(button9);
-            Controls.Add(button10);
-            Controls.Add(button1);
-            Controls.Add(button2);
-            Controls.Add(button3);
-            Controls.Add(button4);
-            Controls.Add(button5);
+            Controls.Add(buttonSeat26);
+            Controls.Add(buttonSeat12);
+            Controls.Add(buttonSeat28);
+            Controls.Add(buttonSeat14);
+            Controls.Add(buttonSeat20);
+            Controls.Add(buttonSeat21);
+            Controls.Add(buttonSeat17);
+            Controls.Add(buttonSeat23);
+            Controls.Add(buttonSeat19);
+            Controls.Add(buttonSeat25);
+            Controls.Add(buttonSeat11);
+            Controls.Add(buttonSeat22);
+            Controls.Add(buttonSeat13);
+            Controls.Add(buttonSeat29);
+            Controls.Add(buttonSeat15);
+            Controls.Add(buttonSeat16);
+            Controls.Add(buttonSeat27);
+            Controls.Add(buttonSeat18);
+            Controls.Add(buttonSeat24);
+            Controls.Add(buttonSeat30);
+            Controls.Add(buttonSeat6);
+            Controls.Add(buttonSeat7);
+            Controls.Add(buttonSeat8);
+            Controls.Add(buttonSeat9);
+            Controls.Add(buttonSeat10);
             Controls.Add(label1);
             Controls.Add(buttonSeat1);
             Controls.Add(buttonSeat2);
@@ -578,31 +578,31 @@ namespace CinemaBookingSystem
 
         #endregion
 
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button16;
-        private Button button17;
-        private Button button18;
-        private Button button19;
-        private Button button20;
-        private Button button21;
-        private Button button22;
-        private Button button23;
-        private Button button24;
-        private Button button25;
+        private Button buttonSeat6;
+        private Button buttonSeat7;
+        private Button buttonSeat8;
+        private Button buttonSeat9;
+        private Button buttonSeat10;
+        private Button buttonSeat16;
+        private Button buttonSeat27;
+        private Button buttonSeat18;
+        private Button buttonSeat24;
+        private Button buttonSeat30;
+        private Button buttonSeat11;
+        private Button buttonSeat22;
+        private Button buttonSeat13;
+        private Button buttonSeat29;
+        private Button buttonSeat15;
+        private Button buttonSeat21;
+        private Button buttonSeat17;
+        private Button buttonSeat23;
+        private Button buttonSeat19;
+        private Button buttonSeat25;
+        private Button buttonSeat26;
+        private Button buttonSeat12;
+        private Button buttonSeat28;
+        private Button buttonSeat14;
+        private Button buttonSeat20;
         private Panel panelScreen;
         private Label label2;
         private Label label3;
