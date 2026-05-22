@@ -33,6 +33,7 @@
             buttonBook = new Button();
             label1 = new Label();
             richTextBoxDescription = new RichTextBox();
+            labelDescription = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBoxPoster).BeginInit();
             SuspendLayout();
             // 
@@ -40,28 +41,54 @@
             // 
             listBoxMovies.BackColor = Color.FromArgb(64, 64, 64);
             listBoxMovies.BorderStyle = BorderStyle.None;
+            listBoxMovies.ForeColor = Color.White;
             listBoxMovies.FormattingEnabled = true;
-            listBoxMovies.Location = new Point(-1, -3);
+            listBoxMovies.Location = new Point(0, 0);
             listBoxMovies.Name = "listBoxMovies";
-            listBoxMovies.Size = new Size(265, 440);
+            listBoxMovies.Size = new Size(255, 432);
             listBoxMovies.TabIndex = 0;
             listBoxMovies.SelectedIndexChanged += listBoxMovies_SelectedIndexChanged;
             // 
             // pictureBoxPoster
             // 
-            pictureBoxPoster.Location = new Point(264, -3);
+            pictureBoxPoster.Location = new Point(264, 4);
             pictureBoxPoster.Name = "pictureBoxPoster";
-            pictureBoxPoster.Size = new Size(588, 245);
+            pictureBoxPoster.Size = new Size(568, 220);
             pictureBoxPoster.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBoxPoster.TabIndex = 1;
             pictureBoxPoster.TabStop = false;
             // 
+            // labelDescription
+            // 
+            labelDescription.AutoSize = true;
+            labelDescription.ForeColor = Color.White;
+            labelDescription.Location = new Point(264, 230);
+            labelDescription.Name = "labelDescription";
+            labelDescription.Size = new Size(97, 20);
+            labelDescription.TabIndex = 2;
+            labelDescription.Text = "Опис фільму";
+            labelDescription.Click += labelDescription_Click;
+            // 
+            // richTextBoxDescription
+            // 
+            richTextBoxDescription.BackColor = Color.FromArgb(45, 45, 48);
+            richTextBoxDescription.BorderStyle = BorderStyle.None;
+            richTextBoxDescription.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            richTextBoxDescription.ForeColor = Color.White;
+            richTextBoxDescription.Location = new Point(264, 255);
+            richTextBoxDescription.Name = "richTextBoxDescription";
+            richTextBoxDescription.ReadOnly = true;
+            richTextBoxDescription.Size = new Size(568, 120);
+            richTextBoxDescription.TabIndex = 5;
+            richTextBoxDescription.Text = "";
+            // 
             // buttonBook
             // 
             buttonBook.BackColor = SystemColors.Highlight;
-            buttonBook.Location = new Point(495, 391);
+            buttonBook.ForeColor = Color.White;
+            buttonBook.Location = new Point(480, 385);
             buttonBook.Name = "buttonBook";
-            buttonBook.Size = new Size(139, 29);
+            buttonBook.Size = new Size(150, 35);
             buttonBook.TabIndex = 3;
             buttonBook.Text = "Забронювати";
             buttonBook.UseVisualStyleBackColor = false;
@@ -72,23 +99,12 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.ForeColor = Color.White;
             label1.Location = new Point(264, 12);
             label1.Name = "label1";
-            label1.Size = new Size(0, 20);
+            label1.Size = new Size(50, 20);
             label1.TabIndex = 4;
-            // 
-            // richTextBoxDescription
-            // 
-            richTextBoxDescription.BackColor = Color.FromArgb(45, 45, 48);
-            richTextBoxDescription.BorderStyle = BorderStyle.None;
-            richTextBoxDescription.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            richTextBoxDescription.ForeColor = Color.White;
-            richTextBoxDescription.Location = new Point(264, 238);
-            richTextBoxDescription.Name = "richTextBoxDescription";
-            richTextBoxDescription.ReadOnly = true;
-            richTextBoxDescription.Size = new Size(588, 147);
-            richTextBoxDescription.TabIndex = 5;
-            richTextBoxDescription.Text = "";
+            label1.Text = "label1";
             // 
             // Form1
             // 
@@ -96,13 +112,14 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(45, 45, 48);
             ClientSize = new Size(844, 432);
+            Controls.Add(label1);
             Controls.Add(buttonBook);
             Controls.Add(richTextBoxDescription);
-            Controls.Add(label1);
+            Controls.Add(labelDescription);
             Controls.Add(pictureBoxPoster);
             Controls.Add(listBoxMovies);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Cinema Booking System";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBoxPoster).EndInit();
             ResumeLayout(false);
@@ -116,5 +133,6 @@
         private Button buttonBook;
         private Label label1;
         private RichTextBox richTextBoxDescription;
+        private Label labelDescription;
     }
 }

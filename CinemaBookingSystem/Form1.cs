@@ -4,7 +4,6 @@ using System.Net;
 
 namespace CinemaBookingSystem
 {
-
     public partial class Form1 : Form
     {
         private List<Movie> movies = new List<Movie>();
@@ -17,8 +16,6 @@ namespace CinemaBookingSystem
 
             LoadMovies();
         }
-
-
 
         private async void LoadMovies()
         {
@@ -41,7 +38,7 @@ namespace CinemaBookingSystem
             }
         }
 
-        private async void listBoxMovies_SelectedIndexChanged(object sender, EventArgs e)
+        private void listBoxMovies_SelectedIndexChanged(object sender, EventArgs e)
         {
             int index = listBoxMovies.SelectedIndex;
 
@@ -53,6 +50,11 @@ namespace CinemaBookingSystem
                    $"{selectedMovie.title}\n\n" +
                    $"Рейтинг: {selectedMovie.vote_average}\n\n" +
                    $"{selectedMovie.overview}";
+
+                labelDescription.Text =
+                    $"{selectedMovie.title}\n\n" +
+                    $"Рейтинг: {selectedMovie.vote_average}\n\n" +
+                    $"{selectedMovie.overview}";
 
                 string imageUrl =
                     $"https://image.tmdb.org/t/p/w500{selectedMovie.poster_path}";
@@ -82,6 +84,7 @@ namespace CinemaBookingSystem
                     MessageBoxIcon.Warning);
             }
         }
+
         private void buttonBook_MouseEnter(object sender, EventArgs e)
         {
             buttonBook.BackColor = Color.DeepSkyBlue;

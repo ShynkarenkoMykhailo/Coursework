@@ -1,14 +1,41 @@
 ﻿using System;
 using System.Drawing;
-using System.Windows.Forms;
-using System.IO;
 using System.Drawing.Drawing2D;
+using System.IO;
+using System.Windows.Forms;
 
 namespace CinemaBookingSystem
 {
     public partial class BookingForm : Form
     {
         private string movieTitle;
+
+        public BookingForm(string selectedMovie)
+        {
+            InitializeComponent();
+
+            movieTitle = selectedMovie;
+
+            label1.Text = $"Бронювання: {movieTitle}";
+
+            foreach (Control control in Controls)
+            {
+                if (control is Button btn && btn.Name.StartsWith("buttonSeat"))
+                {
+                    RoundButton(btn);
+
+                    btn.BackColor = Color.Green;
+                    btn.FlatStyle = FlatStyle.Flat;
+                    btn.FlatAppearance.BorderSize = 0;
+                    btn.ForeColor = Color.White;
+
+                    btn.MouseEnter += SeatButton_MouseEnter;
+                    btn.MouseLeave += SeatButton_MouseLeave;
+
+                    btn.Click += buttonSeat_Click;
+                }
+            }
+        }
 
         private void RoundButton(Button btn)
         {
@@ -44,18 +71,7 @@ namespace CinemaBookingSystem
             }
         }
 
-        public BookingForm(string selectedMovie)
-        {
-            InitializeComponent();
-
-            movieTitle = selectedMovie;
-
-            label1.Text = $"Бронювання: {movieTitle}";
-
-        }
-
-
-        private void buttonSeat1_Click(object sender, EventArgs e)
+        private void buttonSeat_Click(object sender, EventArgs e)
         {
             Button seatButton = (Button)sender;
 
@@ -79,22 +95,7 @@ namespace CinemaBookingSystem
                 MessageBoxIcon.Information);
         }
 
-        private void panelScreen_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panelFree_Paint(object sender, PaintEventArgs e)
+        private void buttonSeat1_Click(object sender, EventArgs e)
         {
 
         }

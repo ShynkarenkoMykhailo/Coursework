@@ -57,8 +57,8 @@
             listBoxUsers.BorderStyle = BorderStyle.None;
             listBoxUsers.ForeColor = Color.White;
             listBoxUsers.FormattingEnabled = true;
-            listBoxUsers.Location = new Point(769, 130);
-            listBoxUsers.Margin = new Padding(4, 4, 4, 4);
+            listBoxUsers.Location = new Point(59, 130);
+            listBoxUsers.Margin = new Padding(4);
             listBoxUsers.Name = "listBoxUsers";
             listBoxUsers.Size = new Size(400, 420);
             listBoxUsers.TabIndex = 1;
@@ -69,8 +69,8 @@
             listBoxTickets.BorderStyle = BorderStyle.None;
             listBoxTickets.ForeColor = Color.White;
             listBoxTickets.FormattingEnabled = true;
-            listBoxTickets.Location = new Point(41, 130);
-            listBoxTickets.Margin = new Padding(4, 4, 4, 4);
+            listBoxTickets.Location = new Point(748, 130);
+            listBoxTickets.Margin = new Padding(4);
             listBoxTickets.Name = "listBoxTickets";
             listBoxTickets.Size = new Size(400, 420);
             listBoxTickets.TabIndex = 2;
@@ -81,7 +81,7 @@
             buttonClearTickets.FlatStyle = FlatStyle.Flat;
             buttonClearTickets.ForeColor = Color.White;
             buttonClearTickets.Location = new Point(467, 551);
-            buttonClearTickets.Margin = new Padding(4, 4, 4, 4);
+            buttonClearTickets.Margin = new Padding(4);
             buttonClearTickets.Name = "buttonClearTickets";
             buttonClearTickets.Size = new Size(273, 41);
             buttonClearTickets.TabIndex = 3;
@@ -124,7 +124,7 @@
             Controls.Add(listBoxUsers);
             Controls.Add(AdminPanel);
             Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "AdminForm";
             Text = "AdminForm";
             Click += buttonClearTickets_Click;
